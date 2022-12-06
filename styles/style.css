@@ -209,9 +209,9 @@
     margin-top: 100px;
 }
 #product-cards h1{
-    color: aqua;
+    color: purple;
     text-shadow: 1px 1px 1px black;
-    border-bottom: 2px solid aqua;
+    border-bottom: 2px solid purple;
 }
 #product-cards .card h3{
     font-size: 25px;
@@ -219,6 +219,7 @@
 }
 #product-cards .card p{
     font-size: 12px;
+    margin-top: 5px;
     color: black;
 }
 .star i{
@@ -226,7 +227,7 @@
     font-size: 13px;
 }
 .checked{
-    color: black;
+    color: red;
 }
 #product-cards .card h2{
     font-size: 20px;
@@ -243,4 +244,7 @@
         font-size: 18px;
     }
 }
+
+
+
 /* product cards */
