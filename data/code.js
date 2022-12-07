@@ -10,31 +10,31 @@ JSON.parse(localStorage.getItem('products ')) : [
     {
         id: 2,
         productName: " Zoro Jorden",
-        Price: "3 00",
+        Price: "3 000",
         brand:"Jordens",
     },
     {
         id: 3,
-        productName: "Luffy Straw-Hat",
-        Price:"500",
+        productName: "Sanji Straw-Hat",
+        Price:"3 000",
         Brand:"One Piece",
     },
     {
         id: 4,
-        productName: "Zoro Sword",
-        Price:"1 00",
+        productName: "Jimbe yeezy",
+        Price:"1 500",
         Brand:"One Piece",
     },
     {
         id: 5,
-        productName: "Chopper Hat",
-        Price:"500"
+        productName: "law yeezy",
+        Price:"1 500"
  ,      Brand:"One Piece",
     },
     {
         id: 6,
-        productName: "Boat Figurine",
-        Price:"250",
+        productName: "Ussop yeezy",
+        Price:"1 500",
         Brand:"One Piece",
     }
 ];
