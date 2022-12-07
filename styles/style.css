@@ -239,7 +239,7 @@
     color: black;
     cursor: pointer;
 }
-@media screen and (max-width:100px){
+@media screen and (max-width:1080px){
     #product-cards .card h3{
         font-size: 18px;
     }
