@@ -34,7 +34,26 @@ JSON.parse(localStorage.getItem('products ')) : [
     {
         id: 6,
         productName: "Ussop yeezy",
-        Price:"1 500",
-        Brand:"One Piece",
+        price:"1 500",
+        brand:"One Piece",
     }
 ];
+// const categories = [...new Set(product.map((item)=>
+//     {return item}))]
+//     let i = 0;
+//     document.getElementById('root').innerHTML = categories.map((item)=>
+//     {wrapper.innerHTML += 
+//         var {productName, price, brand} = item;
+//         return(
+//             <div class="box"></div>
+//         )
+//     })
+const categories = [...new Set(product.map((item)=>
+        {return item}))]
+        let i = 0;
+        document.getElementById('root').innerHTML = categories.map((item)=>{
+        innerHTML += 
+        `
+        <div class="box"></div>
+                `
+    })

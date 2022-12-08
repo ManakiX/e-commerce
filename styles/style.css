@@ -297,7 +297,18 @@
     }
     #other-cards .cards p{
         margin-top: 0;
+    } 
+    #shopnow{
+        margin-top: 0px;
+        width: 120px;
+        height: 30px;
+        font-size: 16px;
     }
-    
 }
+/* #root{
+    width: 60%;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+} */
 /* product cards */
