@@ -57,7 +57,7 @@ Object.keys(products).forEach((productsIndex) => {
     table.innerHTML += `
     <tr>
         <td>${item.productName}</td>
-        <td>${item.price}</td>
+        <td>R${item.price}</td>
         <td>${item.brand}</td>
     </tr>
     `
