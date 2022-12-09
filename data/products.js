@@ -18,31 +18,43 @@ JSON.parse(localStorage.getItem('products ')) : [
         id: 3,
         productName: "Sanji Straw-Hat",
         price:3000,
-        Brand:"One Piece",
+        brand:"One Piece",
     },
     {
         id: 4,
         productName: "Jimbe yeezy",
         price:3000,
-        Brand:"One Piece",
+        brand:"One Piece",
     },
     {
         id: 5,
         productName: "law yeezy",
         price:1500
- ,      Brand:"One Piece",
+ ,      brand:"One Piece",
     },
     {
         id: 6,
         productName: "Ussop yeezy",
         price:1500,
         brand:"One Piece",
+    },
+    {
+        id: 7,
+        productName: "Luffy T-shirt",
+        price:700,
+        brand:"One Piece",
+    },
+    {
+        id: 8,
+        productName: "Mihawk Hoody",
+        price:100,
+        brand:"One Piece",
     }
 ];
 Object.keys(products).forEach((productsIndex) => {
     let item = products[productsIndex];
     let table = document.querySelector('tbody');
-    b.innerHTML += `
+    table.innerHTML += `
     <tr>
         <td>${item.productName}</td>
         <td>${item.price}</td>
