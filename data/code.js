@@ -1,59 +1,57 @@
 // Sample data: example
 let products = JSON.parse(localStorage.getItem('products ')) ?
 JSON.parse(localStorage.getItem('products ')) : [
+    
     {
         id: 1,
-        productName: "Luffy Jorden ",
+        productName: "Luffy Jordan ",
         Price: "3 000",
-        brand:"Jordens",
+        brand:"Jordans",
     },
     {
         id: 2,
-        productName: " Zoro Jorden",
-        Price: "3 000",
-        brand:"Jordens",
+        productName: " Zoro Jordans",
+        Price: 3000,
+        brand:"Jordans",
     },
     {
         id: 3,
         productName: "Sanji Straw-Hat",
-        Price:"3 000",
+        Price:3000,
         Brand:"One Piece",
     },
     {
         id: 4,
         productName: "Jimbe yeezy",
-        Price:"1 500",
+        Price:3000,
         Brand:"One Piece",
     },
     {
         id: 5,
         productName: "law yeezy",
-        Price:"1 500"
+        Price:1500
  ,      Brand:"One Piece",
     },
     {
         id: 6,
         productName: "Ussop yeezy",
-        price:"1 500",
+        price:1500,
         brand:"One Piece",
     }
 ];
-// const categories = [...new Set(product.map((item)=>
-//     {return item}))]
-//     let i = 0;
-//     document.getElementById('root').innerHTML = categories.map((item)=>
-//     {wrapper.innerHTML += 
-//         var {productName, price, brand} = item;
-//         return(
-//             <div class="box"></div>
-//         )
-//     })
-const categories = [...new Set(product.map((item)=>
-        {return item}))]
-        let i = 0;
-        document.getElementById('root').innerHTML = categories.map((item)=>{
-        innerHTML += 
-        `
-        <div class="box"></div>
-                `
-    })
+let art = JSON.parse(localStorage.getItem('Catalog'));
+Object.keys(art).forEach((artIndex) => {
+    let a = art[artIndex];
+    let b = document.querySelector('tbody');
+    b.innerHTML += `
+    <tr>
+        <td>${a.size}</td>
+        <td>${a.image}</td>
+        <td>${a.title}</td>
+        <td>${a.medium}</td>
+        <td>${a.price}</td>
+        <td>${a.delete}</td>
+        <td>${a.edit}</td>
+    </tr>
+    `
+})

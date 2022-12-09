@@ -305,10 +305,10 @@
         font-size: 16px;
     }
 }
-/* #root{
+#root{
     width: 60%;
     display: flex;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-} */
+}
 /* product cards */
