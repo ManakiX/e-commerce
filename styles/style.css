@@ -327,3 +327,9 @@ button#add{
     transition: 0.2s ease;
     cursor: pointer;
 }
+.admin{
+    background-color: orange;
+}
+#product{
+    background-color: orange;
+}

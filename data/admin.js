@@ -16,7 +16,7 @@ JSON.parse(localStorage.getItem('products ')) : [
     },
     {
         id: 3,
-        productName: "Sanji Straw-Hat",
+        productName: "Sanji Jordans",
         price:3000,
         brand:"One Piece",
     },
