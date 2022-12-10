@@ -58,7 +58,7 @@ Object.keys(products).forEach((productsIndex) => {
     <tr>
         <td>${item.productName}</td>
         <td>R${item.price}</td>
-        <td>${item.brand}<button onclick="myFunction()">add to cart</button></td>
+        <td>${item.brand}<button id="adm" onclick="addCart()">Add to cart</button><button id="add" onclick="del()">Delete</button></td>
     </tr>
     `
 })
