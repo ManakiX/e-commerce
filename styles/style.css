@@ -275,7 +275,7 @@
     margin-left: 10px;
     letter-spacing: 1px;
 }
-#shopnow{
+/* #shopnow{
     width: 130px;
     height: 30px;
     margin-top: 10px;
@@ -285,7 +285,7 @@
     font-weight: bold;
     border: none;
     cursor: pointer;
-}
+} */
 @media screen and (max-width: 1000px) {
     #other-cards .card h3{
         margin-top: 5px;
@@ -298,12 +298,12 @@
     #other-cards .cards p{
         margin-top: 0;
     } 
-    #shopnow{
+    /* #shopnow{
         margin-top: 0px;
         width: 120px;
         height: 30px;
         font-size: 16px;
-    }
+    } */
 }
 button#adm{
     width: 150px;
