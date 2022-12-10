@@ -62,12 +62,4 @@ Object.keys(products).forEach((productsIndex) => {
     </tr>
     `
 })
-var items = [products];
-    document.getElementById(number).innerHTML = items;
-
-    function myFunction() {
-        items.push(id);
-        document.getElementById(number).innerHTML = items;
-    }
-    
     
