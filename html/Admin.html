@@ -50,22 +50,36 @@
           </div>
         </div>
       </nav>
-      <!-- end of nav -->
 
-      <section>
-        <table class="table container-fluid mt-5">
-          <tr class="row-12">
+      <div class="container">
+        <!--  Shopping cart table wrapper  -->
+        <div id="shopping-cart">
+          <div class="txt-heading">
+            <h1>Shopping cart</h1>
+          </div>
+          <a onClick="emptyCart()" id="btnEmpty">Empty Cart</a>
+          <table class="tbl-cart" cellpadding="10" cellspacing="1">
             <thead>
-              <th class="col-1"></th>
-              <th class="col-2"></th>
-              <th class="col-3"></th>
-              <th class="col-4"></th>
-              <th class="col-5"></th>
-              <th class="col-6"></th>
+              <tr>
+                <th>Name</th>
+                <th class='text-right' width="10%">Unit Price</th>
+                <th class='text-right' width="5%">Quantity</th>
+                <th class='text-right' width="10%">Sub Total</th>
+              </tr>
             </thead>
-          </tr>
-        </table>
-      </section>
-    <script src="/data/products.js"></script>
+            <!--  Cart table to load data on "add to cart" action -->
+            <tbody id="cartTableBody">
+            </tbody>
+            <tfoot>
+              <tr>
+                <td class="text-right">Total:</td>
+                <td id="itemCount" class="text-right" colspan="2"></td>
+                <td id="totalAmount" class="text-right"></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+    <script src="/data/admin.js"></script>
 </body>
 </html>
