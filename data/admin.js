@@ -62,4 +62,3 @@ Object.keys(products).forEach((productsIndex) => {
     </tr>
     `
 })
-    
