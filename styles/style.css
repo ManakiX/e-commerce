@@ -333,3 +333,14 @@ button#add{
 #product{
     background-color: orange;
 }
+#link{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    color: black;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
